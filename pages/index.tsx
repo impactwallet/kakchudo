@@ -6,28 +6,28 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      price: 4,
-      name: "1 месяц",
-      imageSrc: "https://i.ibb.co/FkTQVmK/photo1690445297.jpg",
-      imageAlt: "1 месяц",
+      price: 1,
+      name: "Пожертвовать 1 USDC",
+      imageSrc: "https://i.ibb.co/YZJT78P/photo1690528675.jpg",
+      imageAlt: "Пожертвовать 1 USDC",
     },
     {
       id: 2,
-      name: "6 месяцев",
-      price: 22,
+      name: "Пожертвовать 5 USDC",
+      price: 5,
       imageSrc:
-        "https://i.ibb.co/k29J6th/photo1690445300.jpg",
+        "https://i.ibb.co/vV42NgV/photo1690528678.jpg",
       imageAlt:
-        "6 месяцев",
+        "Пожертвовать 5 USDC",
     },
     {
       id: 3,
-      name: "1 год",
-      price: 40,
+      name: "Пожертвовать 10 USDC",
+      price: 10,
       imageSrc:
-        "https://i.ibb.co/hcHNHZW/photo1690445303.jpg",
+        "https://i.ibb.co/WF0C7ZX/photo1690528681.jpg",
       imageAlt:
-        "1 год",
+        "Пожертвовать 10 USDC",
     },
   ];
   const router = useRouter();
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       <div className="bg-white">
         <div className="mx-auto max-w-7xl overflow-hidden py-8 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="flex flex-col text-center w-full mb-8">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">ТВОЙ VPN БЕЗ ПРОБЛЕМ</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900"></h1>
     </div>
           <div className="grid  mx-auto gap-y-10 gap-x-30 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
             {products.map((product) => (
