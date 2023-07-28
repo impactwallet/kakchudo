@@ -18,34 +18,34 @@ import { ProductContext } from "../_app";
 const products = [
   {
     id: 1,
-    price: 4,
-    name: "1 месяц",
-    imageSrc: "https://i.ibb.co/FkTQVmK/photo1690445297.jpg",
-    imageAlt: "1 месяц",
-    wallet: "Ak66FsBPPGVua6U5pfzTPbJmneN5ZFfutLDRy2uUHtxo",
-    orgId: "64c111e591700ec3d5d12b44",
+    price: 1,
+    name: "Пожертвовать 1 USDC",
+    imageSrc: "https://i.ibb.co/YZJT78P/photo1690528675.jpg",
+    imageAlt: "Пожертвовать 1 USDC",
+    wallet: "82RuN4LxeffXcdGATpYQEL3Mr5s2CwhHs9Qzv5om4vKd",
+    orgId: "64c370084b699f5593993808",
   },
   {
     id: 2,
-    name: "6 месяцев",
-    price: 22,
+    name: "Пожертвовать 5 USDC",
+    price: 5,
     imageSrc:
-      "https://i.ibb.co/k29J6th/photo1690445300.jpg",
+      "https://i.ibb.co/vV42NgV/photo1690528678.jpg",
     imageAlt:
-      "6 месяцев",
-    wallet: "Ak66FsBPPGVua6U5pfzTPbJmneN5ZFfutLDRy2uUHtxo",
-    orgId: "64c111e591700ec3d5d12b44",
+      "Пожертвовать 5 USDC",
+    wallet: "82RuN4LxeffXcdGATpYQEL3Mr5s2CwhHs9Qzv5om4vKd",
+    orgId: "64c370084b699f5593993808",
   },
   {
     id: 3,
-    name: "1 год",
-    price: 40,
+    name: "Пожертвовать 10 USDC",
+    price: 10,
     imageSrc:
-      "https://i.ibb.co/hcHNHZW/photo1690445303.jpg",
+      "https://i.ibb.co/WF0C7ZX/photo1690528681.jpg",
     imageAlt:
-      "1 год",
-    wallet: "Ak66FsBPPGVua6U5pfzTPbJmneN5ZFfutLDRy2uUHtxo",
-    orgId: "64c111e591700ec3d5d12b44",
+      "Пожертвовать 10 USDC",
+    wallet: "82RuN4LxeffXcdGATpYQEL3Mr5s2CwhHs9Qzv5om4vKd",
+    orgId: "64c370084b699f5593993808",
   },
 ];
 function classNames(...classes: any[]) {
